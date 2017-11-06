@@ -1,0 +1,2 @@
+# Hosts for apache2 role
+ubuntu ansible_host=192.168.198.128 ansible_user=ubuntu2

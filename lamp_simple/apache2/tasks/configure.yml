@@ -1,0 +1,8 @@
+---
+# configuring apache2.conf and sending index.html file
+- name: configuring apache2.conf
+  copy: src=apache2.conf dst=/etc/apache2/conf/apache2.conf
+  notify:
+   - restart apache2 service
+- name: copy index.html
+  copy: src=index.html dst=/var/www/html/index.html

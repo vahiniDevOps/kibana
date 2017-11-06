@@ -1,0 +1,7 @@
+[webservers]
+ubuntu ansible_host=192.168.198.128 ansible_ssh_pass=redhat ansible_user=ubuntu2
+
+[dbservers]
+ubuntu ansible_host=192.168.31.2 ansible_ssh_pass=redhat ansible_user=ubuntu
+
+
